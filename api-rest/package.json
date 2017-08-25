@@ -1,0 +1,22 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "proyecto de api restful con node js y express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonsowb13/nodejsCarlosAzaustre.git"
+  },
+  "author": "Alonso Salcido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alonsowb13/nodejsCarlosAzaustre/issues"
+  },
+  "homepage": "https://github.com/alonsowb13/nodejsCarlosAzaustre#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
