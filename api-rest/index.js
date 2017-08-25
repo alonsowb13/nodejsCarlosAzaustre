@@ -10,6 +10,10 @@ const port = process.env.PORT || 3001
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())//poder aceptar peticiones en formato json
 
+app.get('/hola', (req, res)=>{
+    res.send({message: 'Hola Mundo'})
+})
+
 app.listen(port, ()=>{
    console.log(`API REST corriendo en localhost:${port}`)
 })
